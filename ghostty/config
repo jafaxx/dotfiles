@@ -1,0 +1,11 @@
+theme = Catppuccin Mocha
+font-size = 18
+font-family = "JetBrainsMono Nerd Font"
+font-feature = "calt"
+font-feature = "liga"
+background-blur-radius = 20
+mouse-hide-while-typing = true
+window-decoration = false
+window-padding-x = 05
+window-padding-y = 05
+macos-option-as-alt = true

@@ -1,0 +1,11 @@
+[directory]
+truncation_length = 2
+
+[directory.substitutions]
+"Desktop" = "desktop"
+"Documents" = "docs"
+"Downloads" = " "
+"Pictures" = " "
+"Developer" = "dev"
+"~" = "home"
+".config" = "config"
