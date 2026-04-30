@@ -14,6 +14,7 @@ return {
     },
     picker = {
       enabled = true,
+      hidden = true,
       sources = {
         explorer = {
           auto_close = true,
@@ -25,8 +26,8 @@ return {
               border = "rounded",
               title_pos = "center",
               -- Adjust width/height to look like an oil floating window
-              width = 0.6,
-              height = 0.6,
+              width = 0.7,
+              height = 0.7,
             },
           },
         },
