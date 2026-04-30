@@ -7,15 +7,8 @@ eval "$(starship init zsh)"
 source <(fzf --zsh)
 
 # ZSH SETUP
-source "$HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 source "$HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
-bindkey '^w' autosuggest-execute
-bindkey '^e' autosuggest-accept
-bindkey '^u' autosuggest-toggle
-bindkey '^L' vi-forward-word
-bindkey '^k' up-line-or-search
-bindkey '^j' down-line-or-search
 
 
 
@@ -25,4 +18,11 @@ alias lt="eza -lTa"
 
 alias zlist="zoxide query --list --score"
 
+alias zshconfig="nvim $XDG_CONFIG_HOME/zsh/.zshrc"
+
 alias path='printf "%s\n" $path'
+
+alias vi="nvim"
+alias vim="nvim"
+alias nv="nvim"
+
