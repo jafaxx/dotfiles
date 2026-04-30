@@ -1,0 +1,7 @@
+[user]
+	name = Jafa Masahide
+	email = jafamasahide@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
