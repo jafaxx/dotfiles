@@ -1,0 +1,108 @@
+# ------------------------
+# macOS / System files
+# ------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# ------------------------
+# Shell / Terminal history
+# ------------------------
+.zsh_history
+.zcompdump*
+.zcompcache*
+.bash_history
+.history
+
+# ------------------------
+# Editor / IDE
+# ------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+.eggs/
+*.egg-info/
+venv/
+.venv/
+env/
+ENV/
+
+# ------------------------
+# Node / TypeScript
+# ------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+*.tsbuildinfo
+
+# ------------------------
+# Go
+# ------------------------
+bin/
+pkg/
+vendor/
+*.test
+coverage.out
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
+logs/
+
+# ------------------------
+# Environment files
+# ------------------------
+.env
+.env.*
+*.local
+
+# ------------------------
+# Archives / temp
+# ------------------------
+*.zip
+*.tar
+*.gz
+*.rar
+tmp/
+temp/
+
+# ------------------------
+# Database / cache
+# ------------------------
+*.sqlite
+*.db
+.cache/
